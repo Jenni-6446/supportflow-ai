@@ -1,0 +1,40 @@
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local tools, logs, and editor files
+.tools/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.lnk
+docs/superpowers/
+
+# Local screenshots; selected documentation images are allowed
+screenshots/
+*.local.png
+*.local.jpg
+*.local.jpeg
+!docs/screenshots/
+!docs/screenshots/**
