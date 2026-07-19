@@ -187,14 +187,35 @@ See [Limitations](docs/limitations.md) for the project boundaries and safety ass
 
 ## Screenshots
 
-Clean screenshots are not currently included. Suggested portfolio captures are:
+### Issue intake
 
-1. Intake page
-2. Triage and clarification-questions page
-3. Guided Level 1 checks page
-4. Summary and ticket-note page
+Describe an IT issue in plain language or start from a representative example.
 
-Add selected images under `docs/screenshots/` and replace this list with embedded images before publishing the portfolio repository.
+![SupportFlow AI issue intake](docs/screenshots/intake.png)
+
+### Initial hypotheses
+
+Review possible support directions presented explicitly as starting points rather than confirmed causes.
+
+![SupportFlow AI initial hypotheses](docs/screenshots/initial-hypotheses.png)
+
+### Clarification questions
+
+Collect the missing details that help narrow the issue safely.
+
+![SupportFlow AI clarification questions](docs/screenshots/clarification-questions.png)
+
+### Guided Level 1 checks
+
+Record user-visible evidence through controlled, issue-specific checks.
+
+![SupportFlow AI guided checks](docs/screenshots/guided-checks.png)
+
+### Summary and ticket note
+
+Review the tentative support direction, next steps, and copyable ticket notes.
+
+![SupportFlow AI troubleshooting summary](docs/screenshots/ticket-summary.png)
 
 ## Project Status
 
